@@ -3,16 +3,15 @@
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
   
-  <title>Blink Charging Stations - Worldwide › Saturn Data Blog</title>
+  <title>Restarants for UberEats in United States › Saturn Data Blog</title>
   <meta name="author" content="Saturn Data LLC">
   
-  <meta name="description" content="OverviewThis dataset consists of details on thousands of charging stations for Blink Charging (BLNK) over the world. 
-The type of charging station typ">
+  <meta name="description" content="OverviewThis dataset consists of details of 1000+ restaurants for UberEats in United States from UberEats. Data fields include location number, locati">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Blink Charging Stations - Worldwide"/>
+  <meta property="og:title" content="Restarants for UberEats in United States"/>
   <meta property="og:site_name" content="Saturn Data Blog"/>
 
   
@@ -56,86 +55,104 @@ The type of charging station typ">
     <header>
       
   
-    <h1 class="title">Blink Charging Stations - Worldwide</h1>
+    <h1 class="title">Restarants for UberEats in United States</h1>
   
 
       
-        <time datetime="2023-06-29T14:44:03.099Z">2023-06-29</time>
+        <time datetime="2023-06-29T15:16:31.122Z">2023-06-29</time>
       
     </header>
     <div class="entry">
       
-        <h3 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a><strong>Overview</strong></h3><p>This dataset consists of details on thousands of charging stations for <a href="https://blinkcharging.com/">Blink Charging</a> (BLNK) over the world. </p>
-<p>The type of charging station type is:</p>
-<ul>
-<li>COMMERCIAL</li>
-<li>FLEET</li>
-</ul>
+        <h3 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a><strong>Overview</strong></h3><p>This dataset consists of details of 1000+ restaurants for UberEats in United States from <a href="https://www.ubereats.com/">UberEats</a>. Data fields include location number, location name, zipcode, latitude, longitude, address, state, city, cuisines, delivery fee, delivery time, service fee, phone, review count, review rating. </p>
 <h3 id="Fields"><a href="#Fields" class="headerlink" title="Fields"></a><strong>Fields</strong></h3><ul>
-<li>locationid</li>
+<li>location_number</li>
+<li>location_name</li>
+<li>zipcode</li>
 <li>latitude</li>
 <li>longitude</li>
-<li>title</li>
 <li>address</li>
-<li>city</li>
 <li>state</li>
-<li>postalcode</li>
-<li>country</li>
-<li>type</li>
-<li>chargers</li>
-<li>inuse</li>
-<li>rundate</li>
+<li>city</li>
+<li>cuisines</li>
+<li>delivery_fee_raw</li>
+<li>delivery_time_raw</li>
+<li>delivery_time</li>
+<li>service_fee_raw</li>
+<li>service_fee</li>
+<li>phone</li>
+<li>review_count</li>
+<li>review_rating</li>
+<li>RunDate</li>
 </ul>
-<p>Sample data from May 2022</p>
+<p>Sample data from May 2023</p>
 <table>
 <thead>
 <tr>
-<th align="left">locationid</th>
-<th align="left">latitude</th>
+<th>latitude</th>
 <th align="left">longitude</th>
-<th align="left">title</th>
+<th align="left">loc_name</th>
+<th align="left">loc_number</th>
 <th align="left">address</th>
-<th align="left">city</th>
-<th align="left">state</th>
-<th align="left">postalcode</th>
-<th align="left">country</th>
-<th align="left">type</th>
+<th align="left">cuisines</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left">49189</td>
-<td align="left">29.728572</td>
-<td align="left">-95.571566</td>
-<td align="left">Robinson Westchase Library</td>
-<td align="left">3223 Wilcrest Dr</td>
-<td align="left">Houston</td>
-<td align="left">TX</td>
-<td align="left">77042</td>
-<td align="left">US</td>
-<td align="left">COMMERCIAL</td>
+<td>40.739517</td>
+<td align="left">-73.786354</td>
+<td align="left">Qdoba Mexican Eats</td>
+<td align="left">e86ee980-ee3f-49d8-a2ff-03399ed4d154</td>
+<td align="left">61-40 188th St, Fresh Meadows, NY 11365</td>
+<td align="left">[Mexican, Bowls, Salads, Group Friendly]</td>
 </tr>
 </tbody></table>
 <table>
 <thead>
 <tr>
-<th align="left">chargers</th>
-<th align="left">inuse</th>
-<th align="left">rundate</th>
+<th align="left">delivery_fee_raw</th>
+<th align="left">delivery_time_raw</th>
+<th align="left">delivery_time</th>
+<th align="left">service_fee_raw</th>
+<th align="left">service_fee</th>
+<th align="left">phone</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left">1</td>
-<td align="left">0</td>
-<td align="left">2022-05-22 11:30:12 PDT</td>
+<td align="left">$0.49 Delivery Fee</td>
+<td align="left">10–20 min(s)</td>
+<td align="left">15</td>
+<td align="left">0.49</td>
+<td align="left">0.49</td>
+<td align="left">17184549400</td>
 </tr>
 </tbody></table>
-<p><a href="https://github.com/saturndatacloud/datasets/blob/master/Automative/Blink/stations/blink_charging_stations.csv">Download Sample Dataset</a></p>
+<table>
+<thead>
+<tr>
+<th align="left">searched_zipcode</th>
+<th align="left">searched_city</th>
+<th align="left">searched_state</th>
+<th align="left">review_count</th>
+<th align="left">review_rating</th>
+<th align="left">RunDate</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">11365</td>
+<td align="left">Queens</td>
+<td align="left">NY</td>
+<td align="left">200+</td>
+<td align="left">4.7</td>
+<td align="left">5&#x2F;30&#x2F;2023 7:01</td>
+</tr>
+</tbody></table>
+<p><a href="https://github.com/saturndatacloud/datasets/blob/master/Restaurant/UberEats/UberEats_restaurants.csv">Download Sample Dataset</a></p>
 <h3 id="Specifications"><a href="#Specifications" class="headerlink" title="Specifications"></a><strong>Specifications</strong></h3><ul>
 <li>Dataset Format: CSV (comma-separated)</li>
-<li>Update Frequency: Monthly</li>
-<li>Geographic coverage: Worldwide</li>
+<li>Update Frequency: Weekly</li>
+<li>Geographic coverage: US</li>
 </ul>
-<h3 id="Data-Source"><a href="#Data-Source" class="headerlink" title="Data Source"></a><strong>Data Source</strong></h3><p>From <a href="https://blinkcharging.com/">blinkcharging.com</a></p>
+<h3 id="Data-Source"><a href="#Data-Source" class="headerlink" title="Data Source"></a><strong>Data Source</strong></h3><p>From <a href="https://www.ubereats.com/">ubereats.com</a></p>
 <h3 id="Subscription"><a href="#Subscription" class="headerlink" title="Subscription"></a><strong>Subscription</strong></h3><ul>
 <li><a href="mailto:support@saturndatacloud.com">Email</a></li>
 </ul>
@@ -150,7 +167,7 @@ The type of charging station typ">
         
   
   <div class="tags">
-    <a href="/tags/Automative/">Automative</a>, <a href="/tags/BLNK/">BLNK</a>, <a href="/tags/store-locator/">store locator</a>
+    <a href="/tags/Restarants/">Restarants</a>, <a href="/tags/UBER/">UBER</a>
   </div>
 
         
