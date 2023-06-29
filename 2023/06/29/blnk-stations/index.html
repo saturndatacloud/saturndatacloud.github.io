@@ -3,16 +3,17 @@
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
   
-  <title>Tesla charging stations and store locator - worldwide › Saturn Data Blog</title>
+  <title>Blink Charging Stations - Worldwide › Saturn Data Blog</title>
   <meta name="author" content="Saturn Data LLC">
   
-  <meta name="description" content="OverviewThis dataset consists of details on thousands of charging stations and stores for Tesla (TSLA) electric vehicles (EV) over the world. 
-The loc">
+  <meta name="description" content="Overview
+This dataset consists of details on thousands of charging stations for Blink Charging (BLNK) over the world.
+The type of charging station typ">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Tesla charging stations and store locator - worldwide"/>
+  <meta property="og:title" content="Blink Charging Stations - Worldwide"/>
   <meta property="og:site_name" content="Saturn Data Blog"/>
 
   
@@ -56,97 +57,62 @@ The loc">
     <header>
       
   
-    <h1 class="title">Tesla charging stations and store locator - worldwide</h1>
+    <h1 class="title">Blink Charging Stations - Worldwide</h1>
   
 
       
-        <time datetime="2023-06-29T14:37:44.958Z">2023-06-29</time>
+        <time datetime="2023-06-29T14:44:03.099Z">2023-06-29</time>
       
     </header>
     <div class="entry">
       
-        <h3 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a><strong>Overview</strong></h3><p>This dataset consists of details on thousands of charging stations and stores for <a href="https://www.tesla.com/">Tesla</a> (TSLA) electric vehicles (EV) over the world. </p>
-<p>The location type for Tesla includes but not limited to:</p>
+        <h3 id="Overview"><strong>Overview</strong></h3>
+<p>This dataset consists of details on thousands of charging stations for <a href="https://blinkcharging.com/">Blink Charging</a> (BLNK) over the world.</p>
+<p>The type of charging station type is:</p>
 <ul>
-<li>supercharger</li>
-<li>destination charger</li>
-<li>standard charger</li>
-<li>store</li>
-<li>service</li>
-<li>bodyshop</li>
-<li>logistics</li>
-<li>sales representative</li>
-<li>delivery</li>
+<li>COMMERCIAL</li>
+<li>FLEET</li>
 </ul>
-<h3 id="Fields"><a href="#Fields" class="headerlink" title="Fields"></a><strong>Fields</strong></h3><ul>
+<h3 id="Fields"><strong>Fields</strong></h3>
+<ul>
 <li>locationid</li>
+<li>latitude</li>
+<li>longitude</li>
 <li>title</li>
-<li>type</li>
 <li>address</li>
 <li>city</li>
 <li>state</li>
 <li>postalcode</li>
 <li>country</li>
-<li>region</li>
-<li>latitude</li>
-<li>longitude</li>
-<li>isopening</li>
+<li>type</li>
+<li>chargers</li>
+<li>inuse</li>
 <li>rundate</li>
 </ul>
 <p>Sample data from May 2022</p>
-<table>
-<thead>
-<tr>
-<th>locationid</th>
-<th align="left">title</th>
-<th align="left">type</th>
-<th align="left">address</th>
-<th align="left">city</th>
-<th align="left">state</th>
-<th align="left">postalcode</th>
-<th align="left">country</th>
-<th align="left">region</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>achernsupercharger</td>
-<td align="left">Achern Supercharger</td>
-<td align="left">supercharger</td>
-<td align="left">Achern Am Achernsee 1 Achern 77855</td>
-<td align="left">Achern</td>
-<td align="left"></td>
-<td align="left">77855</td>
-<td align="left">Germany</td>
-<td align="left">europe</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="left">latitude</th>
-<th align="left">longitude</th>
-<th align="left">isopening</th>
-<th align="left">rundate</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">48.64136</td>
-<td align="left">8.037807</td>
-<td align="left">false</td>
-<td align="left">2022-05-15 12:05:19 PDT</td>
-</tr>
-</tbody></table>
-<h3 id="Specifications"><a href="#Specifications" class="headerlink" title="Specifications"></a><strong>Specifications</strong></h3><ul>
+<p>| locationid   |latitude|longitude  | title                                             | address  |city  |state| postalcode  |country  |type  |<br>
+| ------- | :-------------------------------------------------| :--------------------|:--------|:--------|:--------|:--------|:--------|:--------|<br>
+| 49189 |29.728572|-95.571566|Robinson Westchase Library | 3223 Wilcrest Dr | Houston | TX | 77042 | US | COMMERCIAL |</p>
+<p>|chargers | inuse |rundate|<br>
+|:--------|:--------|:--------|:-------------------|<br>
+| 1 | 0 | 2022-05-22 11:30:12 PDT|</p>
+<p><a href="https://github.com/saturndatacloud/datasets/blob/master/Automative/Blink/stations/blink_charging_stations.csv">Download Sample Dataset</a></p>
+<h3 id="Specifications"><strong>Specifications</strong></h3>
+<ul>
 <li>Dataset Format: CSV (comma-separated)</li>
 <li>Update Frequency: Monthly</li>
 <li>Geographic coverage: Worldwide</li>
 </ul>
-<h3 id="Data-Source"><a href="#Data-Source" class="headerlink" title="Data Source"></a><strong>Data Source</strong></h3><p>From <a href="https://www.tesla.com/">tesla.com</a></p>
-<h3 id="Subscription"><a href="#Subscription" class="headerlink" title="Subscription"></a><strong>Subscription</strong></h3><ul>
+<h3 id="Data-Source"><strong>Data Source</strong></h3>
+<p>From <a href="https://blinkcharging.com/">blinkcharging.com</a></p>
+<h3 id="Subscription"><strong>Subscription</strong></h3>
+<ul>
 <li><a href="mailto:support@saturndatacloud.com">Email</a></li>
 </ul>
-<h3 id="Support"><a href="#Support" class="headerlink" title="Support"></a><strong>Support</strong></h3><p>You can reach us at <a href="mailto:support@saturndatacloud.com">support@saturndatacloud.com</a> for any questions on the dataset.</p>
-<h3 id="About-Saturn-Data"><a href="#About-Saturn-Data" class="headerlink" title="About Saturn Data"></a><strong>About Saturn Data</strong></h3><p><a href="https://www.saturndatacloud.com/">Saturn Data</a> provides data mining solutions from public sources to deliver insights for enterprises and the market. If you are interested in acquiring other datasets or customized data mining service, email us at <a href="mailto:info@saturndatacloud.com">info@saturndatacloud.com</a>.</p>
+<h3 id="Support"><strong>Support</strong></h3>
+<p>You can reach us at <a href="mailto:support@saturndatacloud.com">support@saturndatacloud.com</a> for any questions on the dataset.</p>
+<h3 id="About-Saturn-Data"><strong>About Saturn Data</strong></h3>
+<p><a href="https://www.saturndatacloud.com">Saturn Data</a> provides data mining solutions from public sources to deliver insights for enterprises and the market. If you are interested in acquiring other datasets or customized data mining service, email us at <a href="mailto:info@saturndatacloud.com">info@saturndatacloud.com</a>.</p>
 
       
     </div>
@@ -156,7 +122,7 @@ The loc">
         
   
   <div class="tags">
-    <a href="/tags/Automative/">Automative</a>, <a href="/tags/TSLA/">TSLA</a>, <a href="/tags/store-locator/">store locator</a>
+    <a href="/tags/Automative/">Automative</a>, <a href="/tags/BLNK/">BLNK</a>, <a href="/tags/store-locator/">store locator</a>
   </div>
 
         
@@ -212,7 +178,19 @@ The loc">
   <ul class="entry">
     
       <li>
-        <a href="/2023/06/29/saturn-tsla-stations/">Tesla charging stations and store locator - worldwide</a>
+        <a href="/2023/06/29/tsla-used-cars/">Used Tesla Car Sales for United States</a>
+      </li>
+    
+      <li>
+        <a href="/2023/06/29/tsla-stations/">Tesla Charging Stations and Store Locations - Worldwide</a>
+      </li>
+    
+      <li>
+        <a href="/2023/06/29/carvana-cars/">Carvana Car Sales for United States</a>
+      </li>
+    
+      <li>
+        <a href="/2023/06/29/blnk-stations/">Blink Charging Stations - Worldwide</a>
       </li>
     
       <li>
@@ -229,7 +207,7 @@ The loc">
 <div class="widget tagcloud">
   <h3 class="title">Tag Cloud</h3>
   <div class="entry">
-    <a href="/tags/Automative/" style="font-size: 10px;">Automative</a> <a href="/tags/TSLA/" style="font-size: 10px;">TSLA</a> <a href="/tags/store-locator/" style="font-size: 10px;">store locator</a>
+    <a href="/tags/Automative/" style="font-size: 20px;">Automative</a> <a href="/tags/BLNK/" style="font-size: 10px;">BLNK</a> <a href="/tags/CVNA/" style="font-size: 10px;">CVNA</a> <a href="/tags/TSLA/" style="font-size: 15px;">TSLA</a> <a href="/tags/store-locator/" style="font-size: 15px;">store locator</a>
   </div>
 </div>
 
