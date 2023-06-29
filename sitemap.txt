@@ -22,6 +22,6 @@ https://saturndatacloud.github.com/tags/JWN/
 https://saturndatacloud.github.com/tags/TGT/
 https://saturndatacloud.github.com/tags/AMZN/
 https://saturndatacloud.github.com/tags/TSLA/
-https://saturndatacloud.github.com/tags/Restarants/
 https://saturndatacloud.github.com/tags/UBER/
+https://saturndatacloud.github.com/tags/Restarants/
 https://saturndatacloud.github.com/tags/WMT/
