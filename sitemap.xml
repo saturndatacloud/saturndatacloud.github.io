@@ -4,7 +4,7 @@
   <url>
     <loc>https://saturndatacloud.github.com/2023/06/29/blnk-stations/</loc>
     
-    <lastmod>2022-08-08</lastmod>
+    <lastmod>2023-06-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -63,13 +63,6 @@
   </url>
   
   <url>
-    <loc>https://saturndatacloud.github.com/tags/CVNA/</loc>
-    <lastmod>2023-06-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://saturndatacloud.github.com/tags/BLNK/</loc>
     <lastmod>2023-06-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -78,6 +71,13 @@
   
   <url>
     <loc>https://saturndatacloud.github.com/tags/store-locator/</loc>
+    <lastmod>2023-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://saturndatacloud.github.com/tags/CVNA/</loc>
     <lastmod>2023-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
