@@ -3,15 +3,15 @@
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
   
-  <title>Carvana Car Sales for United States › Saturn Data Blog</title>
+  <title>Restarants for DoorDash in United States › Saturn Data Blog</title>
   <meta name="author" content="Saturn Data LLC">
   
-  <meta name="description" content="OverviewThis dataset consists of details on daily Carvana cars sold in United States from Carvana. Data fields include vehicle_id, make, year, model, ">
+  <meta name="description" content="OverviewThis dataset consists of details of 11,000+ restaurants for DoorDash in United States from DoorDash. Data fields include location number, loca">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Carvana Car Sales for United States"/>
+  <meta property="og:title" content="Restarants for DoorDash in United States"/>
   <meta property="og:site_name" content="Saturn Data Blog"/>
 
   
@@ -55,89 +55,115 @@
     <header>
       
   
-    <h1 class="title">Carvana Car Sales for United States</h1>
+    <h1 class="title">Restarants for DoorDash in United States</h1>
   
 
       
-        <time datetime="2023-06-29T14:44:03.103Z">2023-06-29</time>
+        <time datetime="2023-06-29T15:24:48.673Z">2023-06-29</time>
       
     </header>
     <div class="entry">
       
-        <h3 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a><strong>Overview</strong></h3><p>This dataset consists of details on daily Carvana cars sold in United States from <a href="https://www.carvana.com/">Carvana</a>. Data fields include vehicle_id, make, year, model, miles, trim, sold price, discounted sold price, partnered dealership, delivery fee, earliest delivery date, sold date. </p>
+        <h3 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a><strong>Overview</strong></h3><p>This dataset consists of details of 11,000+ restaurants for DoorDash in United States from <a href="https://doordash.com/">DoorDash</a>. Data fields include location number, location name, zipcode, latitude, longitude, address, state, city, cuisines, delivery fee, delivery time, service fee, review count, review rating, phone. </p>
 <h3 id="Fields"><a href="#Fields" class="headerlink" title="Fields"></a><strong>Fields</strong></h3><ul>
-<li>vehicle_id</li>
-<li>stock_number</li>
-<li>year</li>
-<li>make</li>
-<li>model</li>
-<li>miles</li>
-<li>trim</li>
-<li>sold_price</li>
-<li>discounted_sold_price</li>
-<li>partnered_dealership</li>
-<li>delivery_fee</li>
-<li>earliest_delivery_date</li>
-<li>sold_date</li>
+<li>location_number</li>
+<li>location_name</li>
+<li>zipcode</li>
+<li>latitude</li>
+<li>longitude</li>
+<li>address</li>
+<li>state</li>
+<li>city</li>
+<li>cuisines</li>
+<li>delivery_fee_raw</li>
+<li>delivery_time_raw</li>
+<li>delivery_time</li>
+<li>service_fee_raw</li>
+<li>service_fee</li>
+<li>phone</li>
+<li>review_count</li>
+<li>review_rating</li>
+<li>url</li>
+<li>RunDate</li>
 </ul>
-<p>Sample data from August 2022</p>
+<p>Sample data from September 2021</p>
 <table>
 <thead>
 <tr>
-<th>vehicle_id</th>
-<th align="left">stock_number</th>
-<th align="left">year</th>
-<th align="left">make</th>
-<th align="left">model</th>
-<th align="left">miles</th>
+<th>latitude</th>
+<th align="left">longitude</th>
+<th align="left">loc_name</th>
+<th align="left">loc_number</th>
+<th align="left">address</th>
+<th align="left">cuisines</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>2388462</td>
-<td align="left">2001823541</td>
-<td align="left">2016</td>
-<td align="left">Ford</td>
-<td align="left">Focus</td>
-<td align="left">77108</td>
+<td>40.6462799</td>
+<td align="left">-74.0195503</td>
+<td align="left">Burger Slob</td>
+<td align="left">1826238</td>
+<td align="left">5423 2nd Ave, Brooklyn, NY 11220, USA</td>
+<td align="left">[American, Sandwich, Burgers]</td>
 </tr>
 </tbody></table>
 <table>
 <thead>
 <tr>
-<th align="left">trim</th>
-<th align="left">sold_price</th>
-<th align="left">discounted_sold_price</th>
-<th align="left">partnered_dealership</th>
+<th align="left">delivery_fee_raw</th>
+<th align="left">delivery_time_raw</th>
+<th align="left">delivery_time</th>
+<th align="left">service_fee_raw</th>
+<th align="left">service_fee</th>
+<th align="left">phone</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left">SE</td>
-<td align="left">14590</td>
-<td align="left">14590</td>
-<td align="left">FALSE</td>
+<td align="left">US$0.00 delivery fee, first order</td>
+<td align="left">34 - 44</td>
+<td align="left">39</td>
+<td align="left">NULL</td>
+<td align="left">NULL</td>
+<td align="left">NULL</td>
 </tr>
 </tbody></table>
 <table>
 <thead>
 <tr>
-<th align="left">delivery_fee</th>
-<th align="left">earliest_delivery_date</th>
-<th align="left">sold_date</th>
+<th align="left">searched_zipcode</th>
+<th align="left">searched_city</th>
+<th align="left">searched_state</th>
+<th align="left">review_count</th>
+<th align="left">review_rating</th>
+<th align="left">RunDate</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left">490</td>
-<td align="left">2022-08-11T16:29:53.448Z</td>
-<td align="left">8&#x2F;5&#x2F;2022</td>
+<td align="left">11219</td>
+<td align="left">Brooklyn</td>
+<td align="left">NY</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">9&#x2F;9&#x2F;2021 20:25</td>
 </tr>
 </tbody></table>
-<p><a href="https://github.com/saturndatacloud/datasets/blob/master/Automative/Carvana/used%20cars/carvana_used_cars.csv">Download Sample Dataset</a></p>
+<table>
+<thead>
+<tr>
+<th align="left">url</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://www.doordash.com/store/1826238/?pickup=false">https://www.doordash.com/store/1826238/?pickup=false</a></td>
+</tr>
+</tbody></table>
+<p><a href="https://github.com/saturndatacloud/datasets/blob/master/Restaurant/DoorDash/doordash_restaurants.csv">Download Sample Dataset</a></p>
 <h3 id="Specifications"><a href="#Specifications" class="headerlink" title="Specifications"></a><strong>Specifications</strong></h3><ul>
 <li>Dataset Format: CSV (comma-separated)</li>
-<li>Update Frequency: Monthly</li>
+<li>Update Frequency: None</li>
 <li>Geographic coverage: US</li>
 </ul>
-<h3 id="Data-Source"><a href="#Data-Source" class="headerlink" title="Data Source"></a><strong>Data Source</strong></h3><p>From <a href="https://www.carvana.com/">carvana.com</a></p>
+<h3 id="Data-Source"><a href="#Data-Source" class="headerlink" title="Data Source"></a><strong>Data Source</strong></h3><p>From <a href="https://doordash.com/">doordash.com</a></p>
 <h3 id="Subscription"><a href="#Subscription" class="headerlink" title="Subscription"></a><strong>Subscription</strong></h3><ul>
 <li><a href="mailto:support@saturndatacloud.com">Email</a></li>
 </ul>
@@ -152,7 +178,7 @@
         
   
   <div class="tags">
-    <a href="/tags/Automative/">Automative</a>, <a href="/tags/CVNA/">CVNA</a>
+    <a href="/tags/Restarants/">Restarants</a>, <a href="/tags/DASH/">DASH</a>
   </div>
 
         

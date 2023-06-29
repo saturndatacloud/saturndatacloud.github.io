@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://saturndatacloud.github.com/2023/06/29/grubhub-restaurants/</loc>
+    
+    <lastmod>2023-06-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://saturndatacloud.github.com/2023/06/29/doordash-restaurants/</loc>
+    
+    <lastmod>2023-06-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://saturndatacloud.github.com/2023/06/29/ubereats-restaurants-uk/</loc>
+    
+    <lastmod>2023-06-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://saturndatacloud.github.com/2023/06/29/ubereats-restaurants/</loc>
     
     <lastmod>2023-06-29</lastmod>
@@ -93,14 +120,21 @@
   </url>
   
   <url>
-    <loc>https://saturndatacloud.github.com/tags/TSLA/</loc>
+    <loc>https://saturndatacloud.github.com/tags/Restarants/</loc>
     <lastmod>2023-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://saturndatacloud.github.com/tags/Restarants/</loc>
+    <loc>https://saturndatacloud.github.com/tags/DASH/</loc>
+    <lastmod>2023-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://saturndatacloud.github.com/tags/TSLA/</loc>
     <lastmod>2023-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
